@@ -100,7 +100,7 @@ function startGame(sWidth, sHeight, sBomb_сount) {
             for (let i = 0; i <= cells.length; i++) {
                 for (let j = 0; j <= bombs.length; j++) {
                     if (i === bombs[j]) {
-                        cells[i].innerHTML = '<img src="./img/Minesweeper.webp" alt=" ">'
+                        cells[i].innerHTML = '<img src="./img/Minesweeper.png" alt=" ">'
                         cells[i].disabled = true
                     }
                 }
