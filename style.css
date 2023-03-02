@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Gajraj+One&display=swap');
+/* font-family: 'Climate Crisis', cursive;
+font-family: 'Gajraj One', cursive; */
+
+body {
+    display: flex;
+    justify-content: center;
+    /* font-family: 'Climate Crisis', cursive; */
+    font-family: 'Gajraj One', cursive;
+}
+.app {
+    border: solid 4px #acacac;
+    border-radius: 5px;
+    background: #efefef;
+}
+.field {
+    display: grid;
+    grid-template-columns: repeat(16, 20px);
+}
+button {
+    height: 20px;
+    font-size: 12px;
+    /* text-align: center; */
+    padding: 0;
+    font-family: 'Gajraj One', cursive;
+    color: #222222;
+}
+img {
+    width: 90%;
+    height: 90%;
+}
+.head {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 4px #acacac;
+}
+.mines {
+    min-width: 20%;
+    height: 80%;
+    background: #222222;
+    color: red;
+    text-align: end;
+    font-size: 30px;
+    border-right: solid 3px #222222;
+    letter-spacing: 2px;
+}
+.smile {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d8d5d5;
+    border: solid 2px #acacac;
+}
+.timer {
+    min-width: 20%;
+    height: 80%;
+    background: #222222;
+    color: red;
+    text-align: end;
+    font-size: 30px;
+    border-right: solid 3px #222222;
+    letter-spacing: 2px;
+}
+.start_button {
+    text-align: center;
+    border-top: solid 4px #acacac;
+    cursor: pointer;
+}
